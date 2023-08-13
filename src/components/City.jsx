@@ -19,7 +19,7 @@ function City() {
 
   useEffect(() => {
     getCityData(id);
-  }, [id]);
+  }, [id, getCityData]);
   // TEMP DATA
   // const currentCity = {
   //   cityName: "Lisbon",
